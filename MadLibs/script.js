@@ -5,7 +5,7 @@ Noun3, Noun4, Noun5, Verb, Adjective3) {
 " <br/> talking to you from the press " + Noun1 + " in " + LastName + ", Stadium, where 57,000 cheering" +
 PluralNoun2 + "<br/> have gathered to watch (the) " + APlace1 + " " + PluralNoun3 + " take on (the) " +
  APlace2 + " "  + PluralNoun4 + "<br/> Even thought the " + Noun2 + " is shining, it's a/an " + Adjective1 +
-  " 20s." "<br/> A strong " + Noun3 + " is blowing fiercely across the playing " + Noun4 +
+  " 20s. <br/> A strong " + Noun3 + " is blowing fiercely across the playing " + Noun4 +
 " that will definitely affect the passing " + Noun5 + "<br/> We'll be back for the opening " + Verb +
 " off after a few words from our " + Adjective3 + ", sponsor.";
 $('#output').html(MadLib2);
