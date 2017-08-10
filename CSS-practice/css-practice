@@ -1,0 +1,22 @@
+<!-- HTML -->
+<head>
+<link rel="stylesheet" href="/path/to/stylesheet.css">
+</head>
+<section>
+   <div></div>
+</section>
+
+/* CSS */
+section {
+   border: 2px solid black;
+   width: 100px;
+}
+
+div {
+   position: relative;
+   height: 100px;
+   width: 100px;
+   top: 150px;
+   left: 300px;
+   background: green;
+}

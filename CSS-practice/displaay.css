@@ -1,0 +1,12 @@
+div {
+  inline-block: block;  /* block is the default value */
+}
+div.red {
+  background: red;
+  width: 100px;
+}
+
+div.green {
+  background: green;
+  width: 100px;
+}

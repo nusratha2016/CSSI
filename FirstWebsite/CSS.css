@@ -1,0 +1,39 @@
+body {
+  font-family:proxima nova;
+  text-align: left;
+  border:2px solid black;
+  border-radius:20px;
+   }
+
+h1 {
+  color:green;
+  font-weight:bold;
+  background-color:#42f468;
+  padding:10px 20px 10px 20px;
+  border:2px solid black;
+  margin:20px 20px 10px 20px;
+   }
+
+h2 {
+  color:#f142f4;
+  font-weight:bold;
+  padding:10px 20px 10px 20px;
+  border:2px solid black;
+  margin:20px 30px 10px 30px;
+   }
+
+  p {
+   color: black;
+   font-size:16px
+   text-indent:1cm;
+   padding:10px 20px 5px 20px;
+   }
+
+ol {
+  color:black;
+  background-color:#42f468;
+  border:2px solid black;
+  margin:10px 20px 10px 30px
+  padding:20px 40px 20px 20px;
+  border-radius:30px;
+   }

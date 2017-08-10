@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+
+  
+  
+
+  
+  
+  
+
+  
+
+  <script type="text/javascript" src="a_data_002/dummy.js"></script>
+
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="a_data_002/result-light.css">
+  
+
+  
+
+  <style type="text/css">
+    body {
+  font-family:proxima nova;
+  text-align: left;
+  border:2px solid black;
+  border-radius:20px;
+   }
+
+h1 {
+  color:green;
+  font-weight:bold;
+  background-color:#42f468;
+  padding:10px 20px 10px 20px;
+  border:2px solid black;
+  margin:20px 20px 10px 20px;
+   }
+
+h2 {
+  color:#f142f4;
+  font-weight:bold;
+  padding:10px 20px 10px 20px;
+  border:2px solid black;
+  margin:20px 30px 10px 30px;
+   }
+  
+  p {
+   color: black;
+   font-size:16px
+   text-indent:1cm;
+   padding:10px 20px 5px 20px;
+   }
+
+ol {
+  color:black;
+  background-color:#42f468;
+  border:2px solid black;
+  margin:10px 20px 10px 30px
+  padding:20px 40px 20px 20px;
+  border-radius:30px;
+   }
+  </style>
+
+  <title></title>
+
+  
+</head>
+
+<body>
+  
+  <h1>Nusrath's to-do list</h1>
+    <h2>About Me</h2>
+    <p>I am Nusrath. I am an Sophomore student at Medgar Evers College 
+of the City University of New York. I enjoy Learning about Computer!!!</p>
+    <h2>My to-do list</h2>
+    <ol>
+      <li id="todo1" style="text-decoration: none;">Buy a House
+      <button onclick="Task1Done('todo1')">DONE</button>
+      </li> 
+      
+      <li id="todo2">Find Internship based on my Major
+       <button onclick="Task2Done('todo2')">DONE</button>
+      </li>
+      
+      <li id="todo3">Participate
+       <button onclick="Task3Done('todo3')">DONE</button>
+      </li>
+      
+      <li id="todo4">Finish this class learning all the requirment
+       <button onclick="Task4Done('todo4')">DONE</button>
+      </li> 
+      
+      <li id="todo5">Laundry 
+       <button onclick="Task5Done('todo5')">DONE</button>
+      </li> 
+     </ol>
+
+
+
+
+  
+
+
+
+
+<script type="text/javascript">//<![CDATA[
+
+function Task1Done(nusrathahmed)
+{
+   var bulletstyle = document.getElementById(nusrathahmed).style.textDecoration;
+  if(bulletstyle=="line-through")
+  		document.getElementById(nusrathahmed).style.textDecoration="none";
+      else
+    		document.getElementById(nusrathahmed).style.textDecoration="line-through";
+  
+}
+//]]> 
+
+</script>
+
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "None"
+    }], "*")
+  }
+</script>
+
+
+
+
+
+</body></html>

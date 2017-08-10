@@ -1,0 +1,24 @@
+h1 {
+  color: white;
+  background-color: purple;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  text-indent: 1cm;
+}
+
+#output {
+  background-color: #E2F798;
+  font-style: italic;
+  color: blue;
+  padding: 20px;
+  display: inline-block;
+}
+
+input{
+  background-color: #ffe08c;
+}
