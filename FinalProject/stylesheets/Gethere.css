@@ -1,0 +1,157 @@
+
+li1 {
+    padding: 70px 0;
+    text-align: center;
+}
+li2{
+  float:left;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 0 20px 50px;
+}
+.menu li {
+    float: right;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: grey;
+    color: #fffff;
+}
+.menu li:hover {
+    background-color: grey;
+}
+
+.menu ul {
+    float: left;
+    list-style-type: none;
+
+}
+
+h2 {
+    width: 300px;
+    padding: 75px;
+    margin: 75px
+  }
+h3 {
+  font-size: 2.5em;
+  float: left;
+  margin: -195px 150px 450px 600px;
+}
+h5{
+  font-size: 40px;
+}
+p {
+  float: left;
+}
+ol{
+  float : left;
+  margin: -300px 25px 50px 1000px;
+}
+div.gallery {
+  float:left;
+  text-align: center;
+  font-size: 3.0em;
+  display: inline-table;
+  margin:-400px 95px 300px 410px;
+  position: relative;
+  left: 575px;
+  width: 80px;
+  height: 0px;
+}
+div.topnav2{
+  margin: 10px;
+  float: left;
+  width:1275px;
+}
+
+clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    float: left;
+}
+
+ }
+ .header, .footer {
+     background-color: grey;
+     color: white;
+     padding: 20px;
+}
+
+a { float: left
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+
+p1 {
+  text-align: center;
+  font-size: 3.0em;
+  display: inline-table;
+  margin: 0 0 05px 410px;
+  position: relative;
+  left: 5px;
+  text-shadow: left;
+  border: 1px solid black;
+  outline-style: double;
+  outline-color: red;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 016px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+
+.floating-box {
+    float:left;
+    display: inline-block;
+    width: 255px;
+    height: 150px;
+    margin: 40px;
+    border: 3px solid #73AD21;
+}
+div.img{
+  float :left;
+  text-align: center;
+  font-size: 3.0em;
+  display: inline-table;
+  margin:-400px -95px -100px 700px;
+  position:relative;
+  left: -400px;
+  width: 80px;
+  height: -30px;
+}
